@@ -11,5 +11,8 @@ Pluto adds to the simple portlet (ref. https://github.com/mohammedalics/HelloPor
 - pom.xml file update to exclude portlet-api*.jar, as the jar already in pluto bundled tomcat. 
 
 resources: 
+- http://www.journaldev.com/dev/portal-portlets
+- http://www.journaldev.com/4562/introduction-into-apache-pluto-ri-portal-portlet-container-example-tutorial
+- http://www.journaldev.com/4663/portlet-basics-enhancing-portlets-example-tutorial
 - http://www.developer.com/open/article.php/3554396/Developing-Portlets-with-Apache-Pluto.htm 
 
