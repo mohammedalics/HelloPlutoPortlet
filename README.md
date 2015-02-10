@@ -9,3 +9,8 @@ Pluto adds to the simple portlet (ref. https://github.com/mohammedalics/HelloPor
 - pom.xml file update to include maven-pluto-plugin in the build plugins. This plugin will read your portlet.xml and web.xml and injects required lines. 
 - pom.xml file update to configure maven-war-plugin to use updated web.xml. 
 - pom.xml file update to exclude portlet-api*.jar, as the jar already in pluto bundled tomcat. 
+- 
+
+resources: 
+- http://www.developer.com/open/article.php/3554396/Developing-Portlets-with-Apache-Pluto.htm 
+
