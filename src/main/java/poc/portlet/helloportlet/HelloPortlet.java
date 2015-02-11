@@ -29,7 +29,7 @@ public class HelloPortlet extends GenericPortlet {
 				"<form action=" + response.createActionURL() + ">"
 						+ "<p>Render has executed " + renderCount + " times</p>"
 						+ "<p>Action has executed " + actionCount + "times</p>"
-						+ "<input type='submit'/>" + "</form>");
+						+ "<input type='submit'/>" + "</form>");		
 
 	}
 

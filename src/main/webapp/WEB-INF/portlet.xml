@@ -58,6 +58,17 @@ id="poc.portlet.helloportlet.HelloPortlet.7aed100ae3">
 		<resource-bundle>message</resource-bundle>
 	</portlet>
 
+    <portlet>
+        <display-name>Request Attributes</display-name>
+        <portlet-name>requestAttributes</portlet-name>
+        <portlet-class>poc.portlet.requestparameter.RequestParameterPortlet</portlet-class>
+        <description>Print out all attributes located at the PortletRequest</description>
+        <portlet-info>
+            <title>Request Attributes</title>
+            <keywords>request, attributes</keywords>
+            <short-title>Request Attributes</short-title>
+        </portlet-info>
+    </portlet>
 
 	<default-namespace>
    http://localhost/
