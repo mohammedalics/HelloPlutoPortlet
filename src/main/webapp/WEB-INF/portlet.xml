@@ -81,6 +81,29 @@ id="poc.portlet.helloportlet.HelloPortlet.7aed100ae3">
         </portlet-info>
     </portlet>
     
+    
+       <portlet>
+        <display-name>Render Response Namespace One</display-name>
+        <portlet-name>RenderResponseNamespaceOne</portlet-name>
+        <portlet-class>poc.portlet.renderresponse.RenderResponseNamespaceOnePortlet</portlet-class>
+        <description>Render Response Namespace One</description>
+        <portlet-info>
+            <title>Render Response Namespace One</title>
+  
+        </portlet-info>
+    </portlet>
+    
+        <portlet>
+        <display-name>Render Response Namespace Two</display-name>
+        <portlet-name>RenderResponseNamespaceTwo</portlet-name>
+        <portlet-class>poc.portlet.renderresponse.RenderResponseNamespaceTwoPortlet</portlet-class>
+        <description>Render Response Namespace Two</description>
+        <portlet-info>
+            <title>Render Response Namespace Two</title>
+  
+        </portlet-info>
+    </portlet>
+
 
 	<default-namespace>
    http://localhost/
