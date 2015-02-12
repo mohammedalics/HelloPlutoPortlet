@@ -60,7 +60,7 @@ id="poc.portlet.helloportlet.HelloPortlet.7aed100ae3">
 
     <portlet>
         <display-name>Request Attributes</display-name>
-        <portlet-name>requestAttributes</portlet-name>
+        <portlet-name>RequestParameterPortlet</portlet-name>
         <portlet-class>poc.portlet.requestparameter.RequestParameterPortlet</portlet-class>
         <description>Print out all attributes located at the PortletRequest</description>
         <portlet-info>
@@ -69,6 +69,18 @@ id="poc.portlet.helloportlet.HelloPortlet.7aed100ae3">
             <short-title>Request Attributes</short-title>
         </portlet-info>
     </portlet>
+    
+    <portlet>
+        <display-name>Action Request Reader</display-name>
+        <portlet-name>ActionRequestReaderPortlet</portlet-name>
+        <portlet-class>poc.portlet.actionrequestreader.ActionRequestReaderPortlet</portlet-class>
+        <description>test action request and file upload</description>
+        <portlet-info>
+            <title>Action Request file upload</title>
+  
+        </portlet-info>
+    </portlet>
+    
 
 	<default-namespace>
    http://localhost/
