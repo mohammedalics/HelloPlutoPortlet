@@ -129,7 +129,16 @@ id="poc.portlet.helloportlet.HelloPortlet.7aed100ae3">
         </portlet-info>
     </portlet>
     
-
+ 	<portlet>
+        <display-name>Session Portlet</display-name>
+        <portlet-name>SessionPortlet</portlet-name>
+        <portlet-class>poc.portlet.sessionportlet.SessionPortlet</portlet-class>
+        <description>Session Portlet</description>
+        <portlet-info>
+            <title>Session Portlet</title>
+  
+        </portlet-info>
+    </portlet>
 
 	<default-namespace>
    http://localhost/
