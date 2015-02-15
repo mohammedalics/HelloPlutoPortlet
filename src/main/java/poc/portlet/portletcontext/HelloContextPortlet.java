@@ -20,6 +20,10 @@ public class HelloContextPortlet extends GenericPortlet {
 	@Override
 	protected void doView(RenderRequest request, RenderResponse response)
 			throws PortletException, IOException {
-        response.getWriter().print("<p>Hello Context Portlet</p>");		
+        response.getWriter().print("<p>Hello Context Portlet, access the servlet /hello to check the value passed. </p><br/>");		
+        
+        response.getWriter().print("<p>Servlet Init Param Is "+this.getPortletContext().getInitParameter("servletContextParam")+"</p>");
+        response.getWriter().print("<p>Portlet Init Param Is "+this.getPortletConfig().getInitParameter("portletContextParam")+"</p>");
+
 	}
 }

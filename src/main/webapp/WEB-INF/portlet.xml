@@ -113,6 +113,10 @@ id="poc.portlet.helloportlet.HelloPortlet.7aed100ae3">
             <title>Hello Context Portlet</title>
   
         </portlet-info>
+        <init-param>
+            <name>portletContextParam</name>
+            <value>PortletContextParamValue</value>
+        </init-param>
     </portlet>
     
 

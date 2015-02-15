@@ -1,4 +1,4 @@
-package poc.portlet.servlet;
+package poc.servlet;
 
 import java.io.IOException;
 
@@ -20,5 +20,8 @@ public class HelloServlet extends HttpServlet {
 				"<p>Portlet context anonymous variable value Is "
 						+ getServletContext().getAttribute("anonymousVariable")
 						+ "</p>");
+		
+		resp.getWriter().print("<p>Servlet Init Param Is "+getServletContext().getInitParameter("servletContextParam")+"</p>");
+		
 	}
 }
