@@ -118,6 +118,16 @@ id="poc.portlet.helloportlet.HelloPortlet.7aed100ae3">
             <value>PortletContextParamValue</value>
         </init-param>
     </portlet>
+     <portlet>
+        <display-name>Access Resources Portlet</display-name>
+        <portlet-name>AccessResourcesPortlet</portlet-name>
+        <portlet-class>poc.portlet.accessresources.AccessResourcesPortlet</portlet-class>
+        <description>Access Resources Portlet</description>
+        <portlet-info>
+            <title>Access Resources Portlet</title>
+  
+        </portlet-info>
+    </portlet>
     
 
 
