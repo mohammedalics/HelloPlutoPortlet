@@ -103,6 +103,18 @@ id="poc.portlet.helloportlet.HelloPortlet.7aed100ae3">
   
         </portlet-info>
     </portlet>
+    
+    <portlet>
+        <display-name>Hello Context Portlet</display-name>
+        <portlet-name>HelloContextPortlet</portlet-name>
+        <portlet-class>poc.portlet.portletcontext.HelloContextPortlet</portlet-class>
+        <description>Hello Context Portlet</description>
+        <portlet-info>
+            <title>Hello Context Portlet</title>
+  
+        </portlet-info>
+    </portlet>
+    
 
 
 	<default-namespace>
